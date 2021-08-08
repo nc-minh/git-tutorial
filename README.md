@@ -24,6 +24,10 @@ Git config --global user.password = “Your Password”
 - Staging area
 - Git Repository
 ```
+Show remote list
+```
+git remote -v
+```
 ## Syntax
 ### Check status folder
 ```
