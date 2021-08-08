@@ -95,5 +95,28 @@ Create new branch
 ```
 git checkout -b <branch name>
 ```
+### Check branch
+Check current branch 
+```
+git branch
+```
+### Git checkout
+Switch to branch 'master' 
+```
+git checkout
+```
+### Git merge
+Branch merge 
+if you want B --> A
+first you have to 'checkout A'
+than:
+```
+git merge B
+```
+### Git delete branch
+Delete branch 
+```
+git branch -D <branch name>
+```
 <img src="img/git.JPG" alt="github">
 <img src="img/tutorial github.JPG" alt="github">
