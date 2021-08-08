@@ -109,7 +109,7 @@ git checkout
 Branch merge 
 if you want B --> A
 first you have to 'checkout A'
-than:
+then:
 ```
 git merge B
 ```
@@ -117,6 +117,31 @@ git merge B
 Delete branch 
 ```
 git branch -D <branch name>
+```
+### Git reset
+Undo commit by id,
+<p>--soft: return to the state before commit</p>
+<p>--mixed: return to the state before add</p>
+<p>--hard: delete previous commits </p>
+
+```
+git reset --soft <id_commit>
+```
+```
+git reset --mixed <id_commit>
+```
+```
+git reset --hard <id_commit>
+```
+### Git revert
+Return commit
+```
+git revert <id_commit>
+```
+### Create .gitignore
+Ignore the file you don't want to commit
+```
+<file name>
 ```
 <img src="img/git.JPG" alt="github">
 <img src="img/tutorial github.JPG" alt="github">

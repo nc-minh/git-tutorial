@@ -1,0 +1,22 @@
+{
+  "name": "tutorial-git",
+  "version": "1.0.0",
+  "description": "<a href=\"https://git-scm.com/downloads\">Download Git</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyencongminh-dev/Tutorial-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyencongminh-dev/Tutorial-git/issues"
+  },
+  "homepage": "https://github.com/nguyencongminh-dev/Tutorial-git#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
