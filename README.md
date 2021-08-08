@@ -90,6 +90,10 @@ Delete 'modified' file
 ```
 git checkout -- <file>
 ```
-
+### Git branch and checkout
+Create new branch
+```
+git checkout -b <branch name>
+```
 <img src="img/git.JPG" alt="github">
 <img src="img/tutorial github.JPG" alt="github">
