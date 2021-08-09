@@ -176,5 +176,10 @@ git remote -v
 ```
 git fetch origin <branch name on github>
 ```
+### Git rebase
+Conflict when 2 people access and edit the same file at the same time
+```
+git rebase <branch conflict>
+```
 <img src="img/git.JPG" alt="github">
 <img src="img/tutorial github.JPG" alt="github">
