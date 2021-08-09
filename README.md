@@ -95,7 +95,7 @@ git diff
 git clone
 ```
 ### Git pull
-Download changes
+Download changes, synchronized
 ```
 git pull
 ```
@@ -166,6 +166,15 @@ git revert <id_commit>
 Ignore the file you don't want to commit
 ```
 <file name>
+```
+### Git check remote
+```
+git remote -v
+```
+### Git fetch
+- pull branch, can checkout the branch just fetch
+```
+git fetch origin <branch name on github>
 ```
 <img src="img/git.JPG" alt="github">
 <img src="img/tutorial github.JPG" alt="github">
