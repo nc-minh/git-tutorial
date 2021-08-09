@@ -18,6 +18,18 @@ Git config --global user.email = “Your Mail”
 ```
 Git config --global user.password = “Your Password”
 ```
+Linux, mac
+- no recommend, save in Hard Drive(run before type git config)
+```
+git config --global credential.helper store
+```
+- save in memory(run before type git config)
+```
+git config --global credential.helper "cache --timeout=18000"
+```
+```
+google "gnome-keyring" "git shh"
+```
 ## Concept
 ```
 - Working directory
@@ -60,6 +72,9 @@ git commit -a -m"message"
 ```
 git push
 ```
+```
+git push origin <newbranch>
+```
 ### Git log
 Review commit history
 ```
@@ -78,6 +93,11 @@ git diff
 ### Git clone
 ```
 git clone
+```
+### Git pull
+Download changes
+```
+git pull
 ```
 ### Gitk
 Review the modifications on the GUI
