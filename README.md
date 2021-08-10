@@ -124,6 +124,10 @@ Check current branch
 ```
 git branch
 ```
+Create branch A from branch B
+```
+git branch A B
+```
 ### Git checkout
 Switch to branch 'master' 
 ```
@@ -180,6 +184,11 @@ git fetch origin <branch name on github>
 Conflict when 2 people access and edit the same file at the same time
 ```
 git rebase <branch conflict>
+```
+### Git push --force
+Overwrite commit history || no recommend
+```
+git push --force
 ```
 <img src="img/git.JPG" alt="github">
 <img src="img/tutorial github.JPG" alt="github">
