@@ -99,6 +99,9 @@ Download changes, synchronized
 ```
 git pull
 ```
+```
+git pull origin <branchname> --allow-unrelated-histories
+```
 ### Gitk
 Review the modifications on the GUI
 ```
