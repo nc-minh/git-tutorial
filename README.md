@@ -8,6 +8,7 @@
 git version
 ```
 <h3>Save author</h3>
+<h3>Config in the c drive</h3>
 
 ```
 Git config --global user.name = “Your Name”
