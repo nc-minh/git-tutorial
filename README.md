@@ -88,6 +88,9 @@ git push
 ```
 git push origin <newbranch>
 ```
+- If you can't push to github because of authentication error, please read: 
+<a href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">token-authentication-requirements</a>
+<a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">creating-a-personal-access-token</a>
 ### Git log
 Review commit history
 ```
