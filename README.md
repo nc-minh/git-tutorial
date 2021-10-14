@@ -19,6 +19,18 @@ Git config --global user.email = “Your Mail”
 ```
 Git config --global user.password = “Your Password”
 ```
+<h3>Edit author</h3>
+
+- global author editing
+
+```
+git config --global --edit  
+```
+- edit author after committed
+
+```
+git commit --amend --reset-author 
+```
 Linux, mac
 - no recommend, save in Hard Drive(run before type git config)
 ```
