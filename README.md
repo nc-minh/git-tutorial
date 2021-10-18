@@ -11,13 +11,13 @@ git version
 <h3>Config in the c drive</h3>
 
 ```
-Git config --global user.name = “Your Name”
+Git config --global user.name =“Your Name”
 ```
 ```
-Git config --global user.email = “Your Mail”
+Git config --global user.email =“Your Mail”
 ```
 ```
-Git config --global user.password = “Your Password”
+Git config --global user.password =“Your Password”
 ```
 <h3>Edit author</h3>
 
