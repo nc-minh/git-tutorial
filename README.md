@@ -81,6 +81,12 @@ or(add and commit)
 ```
 git commit -a -m"message" 
 ```
+
+### Modify commit message
+- You found a spelling mistake in the commit message. No worries, you can modify it:
+```
+git commit --amend -m "new message"
+```
 ### Git push
 ```
 git push
@@ -165,7 +171,7 @@ Delete branch
 ```
 git branch -D <branch name>
 ```
-### Git reset
+### Undo commits
 Undo commit by id,
 <p>--soft: return to the state before commit</p>
 <p>--mixed: return to the state before add</p>
